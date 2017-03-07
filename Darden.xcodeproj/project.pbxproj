@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECC6E3541E6EF14D004C0552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6E3531E6EF14D004C0552 /* AppDelegate.swift */; };
+		ECC6E3561E6EF14D004C0552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6E3551E6EF14D004C0552 /* ViewController.swift */; };
+		ECC6E3591E6EF14D004C0552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC6E3571E6EF14D004C0552 /* Main.storyboard */; };
+		ECC6E35B1E6EF14D004C0552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC6E35A1E6EF14D004C0552 /* Assets.xcassets */; };
+		ECC6E35E1E6EF14D004C0552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECC6E35C1E6EF14D004C0552 /* LaunchScreen.storyboard */; };
+		ECC6E3691E6EF14D004C0552 /* DardenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6E3681E6EF14D004C0552 /* DardenTests.swift */; };
+		ECC6E3741E6EF14E004C0552 /* DardenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC6E3731E6EF14E004C0552 /* DardenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECC6E3651E6EF14D004C0552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC6E3481E6EF14D004C0552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC6E34F1E6EF14D004C0552;
+			remoteInfo = Darden;
+		};
+		ECC6E3701E6EF14E004C0552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC6E3481E6EF14D004C0552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECC6E34F1E6EF14D004C0552;
+			remoteInfo = Darden;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECC6E3501E6EF14D004C0552 /* Darden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Darden.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC6E3531E6EF14D004C0552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECC6E3551E6EF14D004C0552 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECC6E3581E6EF14D004C0552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECC6E35A1E6EF14D004C0552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECC6E35D1E6EF14D004C0552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECC6E35F1E6EF14D004C0552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC6E3641E6EF14D004C0552 /* DardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DardenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC6E3681E6EF14D004C0552 /* DardenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DardenTests.swift; sourceTree = "<group>"; };
+		ECC6E36A1E6EF14E004C0552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECC6E36F1E6EF14E004C0552 /* DardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DardenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC6E3731E6EF14E004C0552 /* DardenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DardenUITests.swift; sourceTree = "<group>"; };
+		ECC6E3751E6EF14E004C0552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC6E34D1E6EF14D004C0552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC6E3611E6EF14D004C0552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC6E36C1E6EF14E004C0552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC6E3471E6EF14D004C0552 = {
+			isa = PBXGroup;
+			children = (
+				ECC6E3521E6EF14D004C0552 /* Darden */,
+				ECC6E3671E6EF14D004C0552 /* DardenTests */,
+				ECC6E3721E6EF14E004C0552 /* DardenUITests */,
+				ECC6E3511E6EF14D004C0552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC6E3511E6EF14D004C0552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC6E3501E6EF14D004C0552 /* Darden.app */,
+				ECC6E3641E6EF14D004C0552 /* DardenTests.xctest */,
+				ECC6E36F1E6EF14E004C0552 /* DardenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC6E3521E6EF14D004C0552 /* Darden */ = {
+			isa = PBXGroup;
+			children = (
+				ECC6E3531E6EF14D004C0552 /* AppDelegate.swift */,
+				ECC6E3551E6EF14D004C0552 /* ViewController.swift */,
+				ECC6E3571E6EF14D004C0552 /* Main.storyboard */,
+				ECC6E35A1E6EF14D004C0552 /* Assets.xcassets */,
+				ECC6E35C1E6EF14D004C0552 /* LaunchScreen.storyboard */,
+				ECC6E35F1E6EF14D004C0552 /* Info.plist */,
+			);
+			path = Darden;
+			sourceTree = "<group>";
+		};
+		ECC6E3671E6EF14D004C0552 /* DardenTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC6E3681E6EF14D004C0552 /* DardenTests.swift */,
+				ECC6E36A1E6EF14E004C0552 /* Info.plist */,
+			);
+			path = DardenTests;
+			sourceTree = "<group>";
+		};
+		ECC6E3721E6EF14E004C0552 /* DardenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECC6E3731E6EF14E004C0552 /* DardenUITests.swift */,
+				ECC6E3751E6EF14E004C0552 /* Info.plist */,
+			);
+			path = DardenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC6E34F1E6EF14D004C0552 /* Darden */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC6E3781E6EF14E004C0552 /* Build configuration list for PBXNativeTarget "Darden" */;
+			buildPhases = (
+				ECC6E34C1E6EF14D004C0552 /* Sources */,
+				ECC6E34D1E6EF14D004C0552 /* Frameworks */,
+				ECC6E34E1E6EF14D004C0552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Darden;
+			productName = Darden;
+			productReference = ECC6E3501E6EF14D004C0552 /* Darden.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECC6E3631E6EF14D004C0552 /* DardenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC6E37B1E6EF14E004C0552 /* Build configuration list for PBXNativeTarget "DardenTests" */;
+			buildPhases = (
+				ECC6E3601E6EF14D004C0552 /* Sources */,
+				ECC6E3611E6EF14D004C0552 /* Frameworks */,
+				ECC6E3621E6EF14D004C0552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC6E3661E6EF14D004C0552 /* PBXTargetDependency */,
+			);
+			name = DardenTests;
+			productName = DardenTests;
+			productReference = ECC6E3641E6EF14D004C0552 /* DardenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECC6E36E1E6EF14E004C0552 /* DardenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC6E37E1E6EF14E004C0552 /* Build configuration list for PBXNativeTarget "DardenUITests" */;
+			buildPhases = (
+				ECC6E36B1E6EF14E004C0552 /* Sources */,
+				ECC6E36C1E6EF14E004C0552 /* Frameworks */,
+				ECC6E36D1E6EF14E004C0552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECC6E3711E6EF14E004C0552 /* PBXTargetDependency */,
+			);
+			name = DardenUITests;
+			productName = DardenUITests;
+			productReference = ECC6E36F1E6EF14E004C0552 /* DardenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC6E3481E6EF14D004C0552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bobin Louis";
+				TargetAttributes = {
+					ECC6E34F1E6EF14D004C0552 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECC6E3631E6EF14D004C0552 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECC6E34F1E6EF14D004C0552;
+					};
+					ECC6E36E1E6EF14E004C0552 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECC6E34F1E6EF14D004C0552;
+					};
+				};
+			};
+			buildConfigurationList = ECC6E34B1E6EF14D004C0552 /* Build configuration list for PBXProject "Darden" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECC6E3471E6EF14D004C0552;
+			productRefGroup = ECC6E3511E6EF14D004C0552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC6E34F1E6EF14D004C0552 /* Darden */,
+				ECC6E3631E6EF14D004C0552 /* DardenTests */,
+				ECC6E36E1E6EF14E004C0552 /* DardenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECC6E34E1E6EF14D004C0552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC6E35E1E6EF14D004C0552 /* LaunchScreen.storyboard in Resources */,
+				ECC6E35B1E6EF14D004C0552 /* Assets.xcassets in Resources */,
+				ECC6E3591E6EF14D004C0552 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC6E3621E6EF14D004C0552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC6E36D1E6EF14E004C0552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC6E34C1E6EF14D004C0552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC6E3561E6EF14D004C0552 /* ViewController.swift in Sources */,
+				ECC6E3541E6EF14D004C0552 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC6E3601E6EF14D004C0552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC6E3691E6EF14D004C0552 /* DardenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC6E36B1E6EF14E004C0552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC6E3741E6EF14E004C0552 /* DardenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECC6E3661E6EF14D004C0552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC6E34F1E6EF14D004C0552 /* Darden */;
+			targetProxy = ECC6E3651E6EF14D004C0552 /* PBXContainerItemProxy */;
+		};
+		ECC6E3711E6EF14E004C0552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECC6E34F1E6EF14D004C0552 /* Darden */;
+			targetProxy = ECC6E3701E6EF14E004C0552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECC6E3571E6EF14D004C0552 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC6E3581E6EF14D004C0552 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECC6E35C1E6EF14D004C0552 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECC6E35D1E6EF14D004C0552 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECC6E3761E6EF14E004C0552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECC6E3771E6EF14E004C0552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECC6E3791E6EF14E004C0552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Darden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.longhorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECC6E37A1E6EF14E004C0552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Darden/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.longhorn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ECC6E37C1E6EF14E004C0552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DardenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.DardenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Darden.app/Darden";
+			};
+			name = Debug;
+		};
+		ECC6E37D1E6EF14E004C0552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DardenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.DardenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Darden.app/Darden";
+			};
+			name = Release;
+		};
+		ECC6E37F1E6EF14E004C0552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DardenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.DardenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Darden;
+			};
+			name = Debug;
+		};
+		ECC6E3801E6EF14E004C0552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DardenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.photon.DardenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Darden;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC6E34B1E6EF14D004C0552 /* Build configuration list for PBXProject "Darden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC6E3761E6EF14E004C0552 /* Debug */,
+				ECC6E3771E6EF14E004C0552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC6E3781E6EF14E004C0552 /* Build configuration list for PBXNativeTarget "Darden" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC6E3791E6EF14E004C0552 /* Debug */,
+				ECC6E37A1E6EF14E004C0552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECC6E37B1E6EF14E004C0552 /* Build configuration list for PBXNativeTarget "DardenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC6E37C1E6EF14E004C0552 /* Debug */,
+				ECC6E37D1E6EF14E004C0552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECC6E37E1E6EF14E004C0552 /* Build configuration list for PBXNativeTarget "DardenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC6E37F1E6EF14E004C0552 /* Debug */,
+				ECC6E3801E6EF14E004C0552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC6E3481E6EF14D004C0552 /* Project object */;
+}
