@@ -193,7 +193,8 @@
 				TargetAttributes = {
 					ECC6E34F1E6EF14D004C0552 = {
 						CreatedOnToolsVersion = 8.2;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = M72NAL3U5D;
+						ProvisioningStyle = Manual;
 					};
 					ECC6E3631E6EF14D004C0552 = {
 						CreatedOnToolsVersion = 8.2;
@@ -412,10 +413,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = M72NAL3U5D;
 				INFOPLIST_FILE = Darden/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.photon.longhorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "706f26ca-67a6-4cf2-8d39-6bc6a49e1b0b";
+				PROVISIONING_PROFILE_SPECIFIER = "Longhorn-DistProfile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +429,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = M72NAL3U5D;
 				INFOPLIST_FILE = Darden/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.photon.longhorn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "706f26ca-67a6-4cf2-8d39-6bc6a49e1b0b";
+				PROVISIONING_PROFILE_SPECIFIER = "Longhorn-DistProfile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +514,7 @@
 				ECC6E37A1E6EF14E004C0552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECC6E37B1E6EF14E004C0552 /* Build configuration list for PBXNativeTarget "DardenTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +523,7 @@
 				ECC6E37D1E6EF14E004C0552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECC6E37E1E6EF14E004C0552 /* Build configuration list for PBXNativeTarget "DardenUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +532,7 @@
 				ECC6E3801E6EF14E004C0552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
